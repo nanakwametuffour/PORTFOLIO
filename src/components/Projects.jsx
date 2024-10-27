@@ -54,11 +54,11 @@ export default function Projects() {
         {projects ? (
           <div className="w-full flex flex-col md:flex-row lg:flex-row justify-between gap-10 mt-6">
             <div className="flex flex-col gap-5 justify-center w-full">
-              <div className="">
+              <div className="overflow-hidden h-[300px] p">
                 <img
-                  src="/club house.png"
+                  src="/eat1.jpg"
                   alt=""
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-cover img"
                 />
               </div>
               <div className="text-white rounded-b-xl bg-[#181818] py-6 px-4 relative overflow-hidden">
@@ -77,11 +77,11 @@ export default function Projects() {
             </div>
 
             <div className="flex flex-col gap-5 justify-center w-full">
-              <div className="">
+              <div className="overflow-hidden h-[300px] p">
                 <img
-                  src="/club house.png"
+                  src="/zero.jpg"
                   alt=""
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-cover img"
                 />
               </div>
 
@@ -100,11 +100,11 @@ export default function Projects() {
               </div>
             </div>
             <div className="flex flex-col gap-5 justify-center w-full">
-              <div className="">
+              <div className="overflow-hidden h-[300px] p">
                 <img
-                  src="/club house.png"
+                  src="/game.jpg"
                   alt=""
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-cover img"
                 />
               </div>
               <div className="text-white rounded-b-xl bg-[#181818] py-6 px-4 relative overflow-hidden">
@@ -125,11 +125,11 @@ export default function Projects() {
         ) : (
           <div className="w-full flex flex-col md:flex-row lg:flex-row justify-between gap-10 mt-6">
             <div className="flex flex-col gap-5 justify-center w-full">
-              <div className="overflow-hidden h-[300px]">
+              <div className="overflow-hidden h-[300px] p">
                 <img
-                  src="/yellow design.png"
+                  src="/travel1.jpg"
                   alt=""
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-cover img"
                 />
               </div>
               <div className="text-white rounded-b-xl bg-[#181818] py-6 px-4 relative overflow-hidden">
@@ -148,11 +148,11 @@ export default function Projects() {
             </div>
 
             <div className="flex flex-col gap-5 justify-center w-full">
-              <div className=" overflow-hidden h-[300px]">
+              <div className=" overflow-hidden h-[300px] p">
                 <img
                   src="/expedia_frontpage.jpg"
                   alt=""
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-cover img"
                 />
               </div>
               <div className="text-white rounded-b-xl bg-[#181818] py-6 px-4 relative overflow-hidden">
@@ -170,11 +170,11 @@ export default function Projects() {
               </div>
             </div>
             <div className="flex flex-col gap-5 justify-center w-full">
-              <div className="overflow-hidden h-[300px]">
+              <div className="overflow-hidden h-[300px] p">
                 <img
                   src="/vans.jpg"
                   alt=""
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-cover img"
                 />
               </div>
               <div className="text-white rounded-b-xl bg-[#181818] py-6 px-4 relative overflow-hidden">

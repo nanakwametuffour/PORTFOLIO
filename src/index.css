@@ -36,6 +36,13 @@ body{
     
 }
 
+.img{
+  transition: all 10s ease;
+}
+
+.p:hover .img{
+  transform: translateY(-100%);
+}
 
 
 
