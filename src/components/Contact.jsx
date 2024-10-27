@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 export default function Contact() {
@@ -24,7 +25,7 @@ export default function Contact() {
       setResult("Form Submitted Successfully");
       event.target.reset();
     } else {
-      console.log("Error", data);
+     
       setResult(data.message);
     }
   };
@@ -108,7 +109,7 @@ export default function Contact() {
               Send Message
             </button>
           </form>
-          <span>{result}</span>
+          <span className="flex items-center mt-2">{result}</span>
         </div>
       </div>
     </section>
